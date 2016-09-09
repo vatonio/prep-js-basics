@@ -10,6 +10,17 @@
 * It should be a String.
 **/
 
+var firstName = "Vai";
+console.log (firstName);
+
+var lastName = "Atonio";
+console.log (lastName);
+
+var birthPlace = "Hawaii";
+console.log (birthPlace);
+
+
+
 
 
 /**
@@ -21,6 +32,11 @@
 *
 * Their values should be a Number
 **/
+
+var favoriteNumber = 18;
+var currentYear = 2016;
+var thatOnePrinceSong = 1999;
+console.log(favoriteNumber, currentYear, thatOnePrinceSong);
 
 
 
@@ -34,6 +50,14 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = !false;
+var isleftHanded = false;
+var inHawaii = true;
+var isHappyCoding = false;
+console.log(isDaytime, isleftHanded, inHawaii, isHappyCoding);
+
+
+
 
 
 /**
@@ -44,6 +68,10 @@
 *
 * Their values should be a Null value
 **/
+var enrolledAtDevLeague = null;
+var completedFridayPrep = null;
+console.log(enrolledAtDevLeague, completedFridayPrep);
+
 
 
 
@@ -56,6 +84,9 @@
 * which can be found along the west coast of The United States.
 **/
 
+var westCoast = ["Oregon", "Alaska", "Washington", "California", "Hawaii"];
+console.log(westCoast); 
+
 
 
 /**
@@ -66,7 +97,8 @@
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+console.log(evenNumbers);
 
 
 /**
@@ -79,6 +111,20 @@
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
+var sumofNumbers = 0;
+console.log(sumofNumbers);
+
+sumOfNumbers = 4 + 5 + 3;
+console.log(sumofNumbers);
+
+differenceOfNumbers = 4 - 5 - 6;
+console.log(differenceOfNumbers);
+
+productOfNumbers = 4 * 5 * 6;
+console.log(productOfNumbers);
+
+sumOfNumbers = 4 / 5 / 6;
+console.log(sumOfNumbers);
 
 
 
@@ -100,6 +146,11 @@
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
+var isEqual = ("Tacocat" === "tacocat");
+console.log(isEqual);
+
+var isEqual = ("Tacocat" == "tacocat");
+console.log(isEqual); 
 
 
 
@@ -118,6 +169,20 @@
 *   The tests for this section cannot test your variable as it changes,
 *   it can only test that you declared the variable by giving it the right name.
 */
+var generalContainer = 42;
+console.log(generalContainer);
+
+generalContainer +=42;
+console.log(generalContainer);
+
+generalContainer -=10;
+console.log(generalContainer);
+
+generalContainer *=2;
+console.log(generalContainer);
+
+
+
 
 
 
