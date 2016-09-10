@@ -198,6 +198,13 @@ console.log(generalContainer);
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump(height){
+	return "You jumped " +height+" feet high!";
+}
+jump(9);
+
+console.log(jump(9));
+
 
 
 /**
@@ -210,3 +217,9 @@ console.log(generalContainer);
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " make a " +recipeName;
+
+}
+
+console.log(cook("italian sausage", "anchovies", "pizza"));
